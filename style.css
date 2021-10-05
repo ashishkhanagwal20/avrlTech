@@ -1,0 +1,6 @@
+.cards {
+  border: 1px solid black;
+  width: 300px;
+  flex-wrap: nowrap;
+  margin: 10px;
+}

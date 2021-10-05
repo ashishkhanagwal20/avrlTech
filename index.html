@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1>Ashish's Weather App</h1>
+      <input type="text" id="input-city" placeholder="city Name" />
+      <button id="search-btn">Search</button>
+    </nav>
+    <div class="sidebar" id="left-sidebar">
+      <select name="City" id="city-dropdown">
+        <option value="select">select</option>
+        <option value="London">London</option>
+        <option value="New York">New York</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Las Vegas">Las Vegas</option>
+      </select>
+      <button id="get-btn">Get Weather</button>
+    </div>
+    <div id="right-side"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
